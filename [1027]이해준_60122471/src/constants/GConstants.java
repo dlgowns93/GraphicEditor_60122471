@@ -11,7 +11,7 @@ public class GConstants {
 	public final static String MAINFRAME_TITLE = "GraphicsEditor";
 	public final static String FILEMENU_TITLE = "File";
 	public final static String EDITMENU_TITLE = "Edit";
-
+	
 	public static enum EMainFrame {
 		X(100), Y(100), W(400), H(600);
 		private int value;
@@ -22,11 +22,11 @@ public class GConstants {
 	}
 	public static enum EFileMenuItem {
 		nnew("new"), 
-		open("�뿴湲�"), 
+		open("open"), 
 		close("close"), 
 		save("save"), 
 		saveAs("saveAs"),
-		print("�봽由고듃"),
+		print("print"),
 		exit("exit");
 		private String text;
 		private EFileMenuItem(String text) {
@@ -50,7 +50,7 @@ public class GConstants {
 		public String getText() { return this.text; }
 	}
 	public static enum EDrawingType {
-		TP, NP;
+		TP,NP;
 	}
 	public static enum EToolBarButton {
 		rectangle("rsc/rectangle.gif", "rsc/rectangleSLT.gif", new GRectangle()),
@@ -73,4 +73,5 @@ public class GConstants {
 		public String getSelectedIconName() { return this.selectedIconName; }
 		public GShape getShape() { return this.shape; }
 	}
+	
 }
