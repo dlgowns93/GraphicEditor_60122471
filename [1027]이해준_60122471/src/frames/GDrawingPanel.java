@@ -10,7 +10,7 @@ import javax.swing.event.MouseInputListener;
 
 import constants.GConstants.EDrawingType;
 import shapes.GShape;
-
+// µå·ÎÀ× ÆÐ³Î
 public class GDrawingPanel extends JPanel {
 	// attributes
 	private static final long serialVersionUID = 1L;
